@@ -3,6 +3,9 @@
 **Attention!!**
 This project is far from finished, please come back in a couple of weeks, it is going to be sweet AF ;)
 
+Does not work at the moment:
+- Invoice Payments (reason: no routes for webhooks)
+
 This package provides a fluent API for communicating with WHMCS and your infrastucture, giving you the freedom of developing your own client interface and server modules outside of WHMCS in laravel. 
 
 Requirements:
