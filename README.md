@@ -1,15 +1,25 @@
-# laravel whmcs bridge
+# laravel Hosting Provider
 
-This package is build as a bridge between Laravel and WHMCS. Giving you the freedom of developing your own client interface and server modules outside of WHMCS. This package provides a fluent API.
+**Attention!!**
+This project is far from finished, please come back in a couple of weeks, it is going to be sweet AF ;)
+
+This package provides a fluent API for communicating with WHMCS and your infrastucture, giving you the freedom of developing your own client interface and server modules outside of WHMCS in laravel. 
 
 Requirements:
 - laravel
 - cPanel
 - WHMCS
 - Softaculous
+- Memcached
+- (optional) Mollie payment gateway (<- can be overwritten with a custom gateway)
 
-**Attention!!**
-This project is far from finished, please come back in a couple of weeks, it is goingto be sweet ;)
+## Road Map
+
+- Add Openshift or Kubernetes app deployment
+- Plesk Support
+- Standard html layout with all functions
+- Public API
+- Pipe all logic to Node.JS (If I have mastered javascript ;-) )
 
 ## Instalation
 
