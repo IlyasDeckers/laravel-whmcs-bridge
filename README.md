@@ -8,7 +8,7 @@ Requirements:
 - WHMCS
 - Softaculous
 
-** Attention!! **
+**Attention!!**
 This project is far from finished, please come back in a couple of weeks, it is goingto be sweet ;)
 
 ## Instalation
