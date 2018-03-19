@@ -1,7 +1,7 @@
 # laravel Hosting Provider
 
 **Attention!!**
-This project is far from finished, please come back in a couple of weeks, it is going to be sweet AF ;)
+Deprecated. Newer version comming soon.
 
 Does not work at the moment:
 - Invoice Payments (reason: no routes for webhooks)
@@ -18,11 +18,7 @@ Requirements:
 
 ## Road Map
 
-- Add Openshift or Kubernetes app deployment
-- Plesk Support
-- Standard html layout with all functions
 - Public API
-- Pipe all logic to Node.JS (If I have mastered javascript ;-) )
 
 ## Instalation
 
@@ -73,12 +69,6 @@ And register the Facedes
             'domain'    => $r['domain']
         );
 
-        $result = Cpanel::listDnsRecords($data);
-
-        if($r->ajax()){
-            return Response::json($result);
-        }
-
-        return Response::json($result->data);
+        return Cpanel::listDnsRecords($data);
     }
 ```
